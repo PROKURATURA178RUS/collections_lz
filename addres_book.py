@@ -6,7 +6,7 @@ people = {
 }
 
 while True:
-    print("\nВыберите действие:")
+    print("Выберите действие:")
     print("1. Просмотреть словарь")
     print("2. Изменить адрес человека")
     print("3. Удалить человека")
@@ -15,7 +15,7 @@ while True:
     choice = input("Введите номер действия: ")
 
     if choice == '1':
-        print("\nТекущий словарь:")
+        print("Текущий словарь:")
         for name, address in people.items():
             print(f"{name}: {address}")
 
