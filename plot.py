@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np # Импорт numpy и matplotlib
 import matplotlib.pyplot as plt
 
 # Генерация данных
@@ -14,5 +14,5 @@ plt.title('График функции y = sin(x)')  # Заголовок
 plt.xlabel('x')  # Метка оси x
 plt.ylabel('y')  # Метка оси y
 
-# Показать график
-plt.show()
+
+plt.show()# Показать график
